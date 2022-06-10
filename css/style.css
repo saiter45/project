@@ -39,7 +39,6 @@ header {
 }
 
 main {
-    /* background: lawngreen; */
     width: 100%;
     flex-grow: 1;
     max-width: 1600px;
@@ -304,4 +303,242 @@ main {
 
 footer {
     width: 100%;
+}
+
+@media (max-width:1024px) {
+
+
+
+    header {
+        padding-left: 100px;
+        padding-right: 100px;
+        max-width: 1024px;
+    }
+
+    .up {
+        justify-content: space-around;
+    }
+
+    .nav_button {
+        font-size: 14px;
+    }
+
+    .r_button{
+        transform: scale(0.8);
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .trips_head {
+        font-size: 45px;
+    }
+
+    .trips_text {
+        font-size: 14px;
+    }
+
+    main {
+        
+    }
+
+    .locations {
+        padding-top: 0;
+        padding-bottom: 0;
+        transform: scale(0.7);
+    }
+
+    .trips_button {
+        transform: scale(0.9);
+    }
+    
+    .scale {
+        transform: scale(0.8);
+    }
+}
+
+
+@media (max-width:768px) {
+
+    header {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .up {
+        justify-content: space-around;
+    }
+
+    .trips_head{
+        font-size: 25px;
+    }
+
+    .trips_text {
+        font-size: 16px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .trips_head {
+        font-size: 25px;
+    }
+
+    .locations {
+        padding-top: 0;
+        padding-bottom: 140;
+    }
+}
+
+
+@media (max-width:768px) {
+
+
+
+    header {
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 768px;
+    }
+
+    .up {
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+
+    .loc_cards_place {
+        flex-direction: column;
+    }
+
+    .news_cards {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .right_cards_box {
+        justify-content: center;
+    }
+
+    .nav_button {
+        font-size: 12px;
+    }
+
+    .r_button{
+        transform: scale(0.5);
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+    
+    .trips {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .trips_head {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .trips_text {
+        font-size: 10px;
+    }
+
+    main {
+        
+    }
+
+    .locations {
+        padding-top: 0;
+        padding-bottom: 0;
+        transform: scale(0.6);
+    }
+
+    .trips_button {
+        transform: scale(0.4);
+    }
+    
+
+}
+
+@media (max-width:320px) {
+
+
+
+    header {
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 375px;
+    }
+
+    .up {
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+
+    .loc_cards_place {
+        flex-direction: column;
+    }
+
+    .news_cards {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .right_cards_box {
+        justify-content: center;
+    }
+
+    .nav_button {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .r_button{
+        transform: scale(0.4);
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+    
+    .trips {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .trips_head {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .trips_text {
+        font-size: 10px;
+    }
+
+    .news_logo {
+        transform: scale(0.5);
+    }
+
+    
+
+    .locations {
+        padding-top: 0;
+        padding-bottom: 0;
+        transform: scale(0.6);
+    }
+
+    .trips_button {
+        transform: scale(0.4);
+    }
+    
+    .img_crd {
+        transform: scale(0.8);
+    }
+
 }
